@@ -4,9 +4,9 @@ from dash.dependencies import Input, Input
 import dash_bootstrap_components as dbc
 
 # must add this line in order for the app to be deployed successfully on Heroku
-from app_def import app
+# from app_def import app
 # import all pages in the app
-from apps import main, safety, crime, income, elderly, population, safety_immersive, weights
+# from apps import main, safety, crime, income, elderly, population, safety_immersive, weights
 
 server = app.server
 app.config.suppress_callback_exceptions = True
